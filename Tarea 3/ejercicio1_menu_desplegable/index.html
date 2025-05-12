@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Menú Desplegable</title>
+  <style>
+    ul { list-style: none; padding: 0; }
+    li { position: relative; display: inline-block; margin-right: 20px; }
+    li ul { display: none; position: absolute; top: 100%; left: 0; background: #ccc; }
+    li:hover ul { display: block; }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>Inicio</li>
+    <li>Servicios
+      <ul>
+        <li>Internet</li>
+        <li>Telefonía</li>
+        <li>TV</li>
+      </ul>
+    </li>
+    <li>Contacto</li>
+  </ul>
+</body>
+</html>
